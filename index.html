@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-sky-500 to-indigo-600">
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="w-full max-w-md p-6 m-4 bg-white shadow-xl rounded-2xl">
+        <h1 class="mb-6 text-3xl font-bold text-center text-gray-800">
+          Quiz App
+        </h1>
+
+        <div id="quiz-box">
+          <div id="question-container" class="mb-4">
+            <h2
+              id="question-text"
+              class="mb-4 text-2xl font-bold text-center"
+            ></h2>
+            <ul id="choose-ans" class="space-y-2"></ul>
+
+            <button
+              id="next-btn"
+              class="hidden w-full px-4 py-2 mb-4 font-semibold text-white bg-blue-500 rounded hover:bg-blue-600"
+            >
+              Next Question
+            </button>
+          </div>
+          <div id="result-box" class="hidden text-center">
+            <h2 class="mb-2 text-2xl font-bold">Your Score:</h2>
+            <p id="score" class="mb-4 text-lg"></p>
+            <button
+              id="restart-btn"
+              class="px-4 py-2 font-semibold text-white bg-green-500 rounded hover:bg-green-600"
+            >
+              Restart Quiz
+            </button>
+          </div>
+          <button
+            id="start-btn"
+            class="w-full px-4 py-2 mb-4 font-semibold text-white bg-blue-500 rounded hover:bg-blue-600"
+          >
+            Start Quiz
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
