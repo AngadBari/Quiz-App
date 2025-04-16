@@ -1,6 +1,6 @@
 <h1>🎯 Simple Quiz Application</h1>
 
-<p>This is a basic and interactive Quiz Application built using <strong>HTML, CSS, and JavaScript</strong>. It allows users to test their knowledge on various topics by answering multiple-choice questions.</p>
+<p>This is a basic and interactive Quiz Application built using <strong>HTML, TailwindCSS, and JavaScript</strong>. It allows users to test their knowledge on various topics by answering multiple-choice questions.</p>
 
 <h2>🛠 Features</h2>
 <ul>
